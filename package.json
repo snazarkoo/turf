@@ -3,6 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "1.0.0",
   "scripts": {
     "prelint": "tsc",
     "lint": "echo 'eslint will be moved to TSLint'",
