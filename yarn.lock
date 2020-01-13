@@ -237,6 +237,13 @@
   dependencies:
     "@turf/helpers" "^5.1.5"
 
+"@turf/rhumb-circle@https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.1.tgz":
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.1.tgz#5f31fce4a16225a264a06400d1c964fcbbc7ad3f"
+  dependencies:
+    "@turf/helpers" "6.x"
+    "@turf/rhumb-destination" "6.x"
+
 "@turf/rhumb-destination@5.x":
   version "5.1.5"
   resolved "https://registry.yarnpkg.com/@turf/rhumb-destination/-/rhumb-destination-5.1.5.tgz#b1b2aeb921547f2ac0c1a994b6a130f92463c742"

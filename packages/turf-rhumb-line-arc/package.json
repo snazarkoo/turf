@@ -38,7 +38,7 @@
     "write-json-file": "*"
   },
   "dependencies": {
-    "@turf/rhumb-circle": "https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/@snazarkoo/rhumb-circle-6.0.1.tgz",
+    "@turf/rhumb-circle": "https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.1.tgz",
     "@turf/rhumb-destination": "6.x",
     "@turf/helpers": "6.x"
   }
