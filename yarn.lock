@@ -237,9 +237,9 @@
   dependencies:
     "@turf/helpers" "^5.1.5"
 
-"@turf/rhumb-circle@https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.1.tgz":
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.1.tgz#5f31fce4a16225a264a06400d1c964fcbbc7ad3f"
+"@turf/rhumb-circle@https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.2.tgz":
+  version "6.0.2"
+  resolved "https://registry.npmjs.org/@snazarkoo/rhumb-circle/-/rhumb-circle-6.0.2.tgz#f97a10cb1629c5a0ea3e574392785a7b4dc8c7a7"
   dependencies:
     "@turf/helpers" "6.x"
     "@turf/rhumb-destination" "6.x"
@@ -2694,6 +2694,16 @@ geojson-rbush@2.1.0:
     "@turf/meta" "*"
     rbush "*"
 
+geojson-rbush@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/geojson-rbush/-/geojson-rbush-3.1.2.tgz#577d6ec70ba986d4e60b741f1df5147faeb82c97"
+  integrity sha512-grkfdg3HIeTjwTfiJe5FT8+fGU3fABCc+vRJDBwdQz9kkLF0Sbif2gs2JUzjewwgmnvLGy9fInySDeADoNuk7w==
+  dependencies:
+    "@turf/bbox" "*"
+    "@turf/helpers" "6.x"
+    "@turf/meta" "6.x"
+    rbush "^2.0.0"
+
 geojson-rbush@3.x:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/geojson-rbush/-/geojson-rbush-3.1.1.tgz#dd40bdd26e92813d888d7b489e8d2980695a49b4"
@@ -4611,7 +4621,7 @@ raw-body@~1.1.0:
     bytes "1"
     string_decoder "0.10"
 
-rbush@*, rbush@2.x, rbush@^2.0.1:
+rbush@*, rbush@2.x, rbush@^2.0.0, rbush@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/rbush/-/rbush-2.0.2.tgz#bb6005c2731b7ba1d5a9a035772927d16a614605"
   dependencies:
